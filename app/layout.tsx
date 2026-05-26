@@ -17,6 +17,27 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "C2 Unlimited | Sales, Leadership & Service Training",
   description: "Custom sales, leadership, and service training for home improvement retailers and their teams. Trusted by Home Depot, Lowe's, and more.",
+  openGraph: {
+    title: "C2 Unlimited | Sales, Leadership & Service Training",
+    description: "Custom sales, leadership, and service training for home improvement retailers and their teams.",
+    url: "https://c2unlimited.com",
+    siteName: "C2 Unlimited",
+    images: [
+      {
+        url: "/images/og-image.png",
+        width: 500,
+        height: 500,
+        alt: "C2 Unlimited - Coaching & Training",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "C2 Unlimited | Sales, Leadership & Service Training",
+    description: "Custom sales, leadership, and service training for home improvement retailers and their teams.",
+    images: ["/images/og-image.png"],
+  },
 };
 
 export default function RootLayout({
