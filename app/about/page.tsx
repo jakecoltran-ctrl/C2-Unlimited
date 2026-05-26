@@ -10,11 +10,6 @@ const teamMembers = [
     image: '/images/team/chris.png',
   },
   {
-    name: 'Anna Coltran',
-    title: 'Co-Founder & Art & Design Director',
-    image: '/images/team/anna.jpg',
-  },
-  {
     name: 'Dawson Coltran',
     title: 'Sales Director & Project Manager',
     image: '/images/team/dawson.jpg',
@@ -33,16 +28,6 @@ const teamMembers = [
     name: 'Katie C.',
     title: 'Project Manager',
     image: '/images/team/katie.png',
-  },
-  {
-    name: 'Team Member',
-    title: 'Title',
-    image: null,
-  },
-  {
-    name: 'Team Member',
-    title: 'Title',
-    image: null,
   },
 ];
 
