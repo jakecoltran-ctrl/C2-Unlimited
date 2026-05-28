@@ -156,15 +156,15 @@ export default function ClientsPage() {
                   <div className="bg-gray-900 rounded-xl p-6">
                     <div className="grid grid-cols-2 gap-4 text-center">
                       <div className="col-span-2 pb-4 border-b border-gray-700">
-                        <div className="text-4xl font-bold text-yellow-500">30+</div>
+                        <div className="text-4xl font-bold text-yellow-500">1,800+</div>
                         <p className="mt-1 text-gray-400">Weekly Coaching Calls</p>
                       </div>
                       <div>
-                        <div className="text-2xl font-bold text-white">250+</div>
+                        <div className="text-2xl font-bold text-white">400+</div>
                         <p className="text-sm text-gray-400">Stores</p>
                       </div>
                       <div>
-                        <div className="text-2xl font-bold text-white">11</div>
+                        <div className="text-2xl font-bold text-white">14</div>
                         <p className="text-sm text-gray-400">States</p>
                       </div>
                     </div>
