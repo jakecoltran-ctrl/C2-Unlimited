@@ -61,7 +61,10 @@ export default function ContactPage() {
               <form
                 action="https://api.web3forms.com/submit"
                 method="POST"
-                onSubmit={() => setSubmitted(true)}
+                onSubmit={() => {
+                  setSubmitted(true);
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                }}
                 className="space-y-6"
               >
                 <input type="hidden" name="access_key" value="a747a9b2-0e88-4179-8af4-3adda93b58ca" />
