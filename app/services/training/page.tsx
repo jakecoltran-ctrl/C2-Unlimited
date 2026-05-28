@@ -39,7 +39,7 @@ export default function TrainingPage() {
                 <div className="absolute -inset-4 bg-gradient-to-r from-indigo-500/20 to-blue-500/20 rounded-3xl blur-2xl" />
                 <div className="relative">
                   <LiteYouTube
-                    videoId="mukZw_xU0ng"
+                    videoId="WXi8NSOKzws"
                     title="C2 Custom Sales Training"
                   />
                 </div>
