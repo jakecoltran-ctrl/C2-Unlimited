@@ -167,14 +167,14 @@ export default function ContactPage() {
                 <div className="space-y-4">
                   <div>
                     <p className="text-sm text-gray-400">Email</p>
-                    <a href="mailto:info@c2unlimited.com" className="text-blue-500 hover:text-blue-400">
-                      info@c2unlimited.com
+                    <a href="mailto:chris@chriscoltran.com" className="text-blue-500 hover:text-blue-400">
+                      chris@chriscoltran.com
                     </a>
                   </div>
                   <div>
                     <p className="text-sm text-gray-400">Phone</p>
-                    <a href="tel:+1234567890" className="text-blue-500 hover:text-blue-400">
-                      (123) 456-7890
+                    <a href="tel:+17704059041" className="text-blue-500 hover:text-blue-400">
+                      (770) 405-9041
                     </a>
                   </div>
                   <div>
