@@ -229,7 +229,7 @@ export default function ClientsPage() {
               <div className="absolute inset-0 bg-gradient-to-t from-gray-800 via-gray-800/40 to-transparent" />
               <div className="absolute bottom-6 left-8 lg:left-12">
                 <p className="text-blue-600 font-semibold uppercase tracking-wide text-sm">Lowe&apos;s</p>
-                <h3 className="mt-1 text-2xl lg:text-3xl font-bold text-white">Red Vest Selling (RVS) Program</h3>
+                <h3 className="mt-1 text-2xl lg:text-3xl font-bold text-white">Red Vest Selling Program</h3>
               </div>
             </div>
             {/* Content */}
@@ -237,7 +237,7 @@ export default function ClientsPage() {
             <div className="lg:grid lg:grid-cols-3 lg:gap-12">
               <div className="lg:col-span-2">
                 <p className="text-gray-300 text-lg leading-relaxed">
-                  The Red Vest Selling (RVS) Program was created to strengthen Lowe&apos;s associates&apos; customer service and selling skills, with a special focus on increasing flooring details.
+                  The Red Vest Selling Program was created to strengthen Lowe&apos;s associates&apos; customer service and selling skills, with a special focus on increasing flooring details.
                 </p>
                 <p className="mt-4 text-gray-300 leading-relaxed">
                   Its roots go back to 2018, when C2 Coaching & Training was hired by a flooring provider in the Chicago and St. Louis markets to train Home Depot associates. The sharp sales growth in those regions quickly caught the attention of THD leadership, leading Dave Hronchek, then National Installation Flooring Merchant, to invite C2 to present at corporate headquarters. Impressed by the approach, The Home Depot launched a nationwide initiative. Between 2019 and early 2020, C2 delivered more than 80 live events and trained over 10,000 associates—just before the onset of the COVID-19 pandemic.
@@ -273,20 +273,20 @@ export default function ClientsPage() {
                 <div className="bg-gray-900 rounded-xl p-6">
                   <div className="grid grid-cols-2 gap-4 text-center">
                     <div className="col-span-2 pb-4 border-b border-gray-700">
-                      <div className="text-4xl font-bold text-blue-600">25,000+</div>
-                      <p className="mt-1 text-gray-400">Module Views</p>
+                      <div className="text-4xl font-bold text-blue-600">166,456</div>
+                      <p className="mt-1 text-gray-400">Minutes Watched</p>
                     </div>
                     <div>
-                      <div className="text-2xl font-bold text-white">13+</div>
-                      <p className="text-sm text-gray-400">Training Modules</p>
+                      <div className="text-2xl font-bold text-white">1,689</div>
+                      <p className="text-sm text-gray-400">Graduates</p>
                     </div>
                     <div>
-                      <div className="text-2xl font-bold text-white">80+</div>
-                      <p className="text-sm text-gray-400">Live Events</p>
+                      <div className="text-2xl font-bold text-white">3,653</div>
+                      <p className="text-sm text-gray-400">Signups</p>
                     </div>
                     <div className="col-span-2 pt-4 border-t border-gray-700">
-                      <div className="text-2xl font-bold text-white">10,000+</div>
-                      <p className="text-sm text-gray-400">Associates Trained</p>
+                      <div className="text-2xl font-bold text-white">25,458</div>
+                      <p className="text-sm text-gray-400">Modules Completed</p>
                     </div>
                   </div>
                 </div>
