@@ -105,9 +105,9 @@ export default function AnimalSellingPage() {
                   </p>
                 </div>
                 <div className="bg-gray-800 rounded-xl p-6">
-                  <h3 className="text-xl font-semibold text-white mb-2">The Otter</h3>
+                  <h3 className="text-xl font-semibold text-white mb-2">The Penguin</h3>
                   <p className="text-gray-300">
-                    Enthusiastic, social, and relationship-driven. Otters want to connect with you as a person. They enjoy conversation and make decisions based on how they feel about you and the experience.
+                    Enthusiastic, social, and relationship-driven. Penguins want to connect with you as a person. They enjoy conversation and make decisions based on how they feel about you and the experience.
                   </p>
                 </div>
                 <div className="bg-gray-800 rounded-xl p-6">
