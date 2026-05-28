@@ -179,7 +179,7 @@ export default function GrandmotherPhilosophyPage() {
                       The Grandmother Philosophy™ originated from Chris Coltran&apos;s book. This foundational work explores how treating every customer like family transforms sales results and builds lasting relationships.
                     </p>
                     <a
-                      href="https://www.amazon.com/dp/B07PTBRCGM"
+                      href="https://www.amazon.com/Selling-Your-Grandmother-Chris-Coltran/dp/0976015609"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center justify-center rounded-full bg-rose-600 px-5 py-2 text-sm font-semibold text-white hover:bg-rose-500 transition-all duration-200"
