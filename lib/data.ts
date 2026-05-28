@@ -72,7 +72,7 @@ export const whyC2 = [
 export const caseStudies = [
   {
     client: 'Home Depot',
-    headline: 'Trained 10,000+ associates across 19 regions',
+    headline: 'Trained 10,000+ associates across 77 events',
     description: 'Comprehensive sales training program that transformed customer interactions.',
     metric: '10,000+',
     metricLabel: 'Associates Trained',
