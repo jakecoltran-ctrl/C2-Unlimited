@@ -86,7 +86,7 @@ export default function ClientsPage() {
               <div className="lg:grid lg:grid-cols-3 lg:gap-12">
                 <div className="lg:col-span-2">
                   <p className="text-gray-300 text-lg leading-relaxed">
-                    C2 Coaching & Training developed and facilitated a training program in all 19 of The Home Depot regions. With over 10,000 Associates trained, in 45 cities in 28 states, C2 was able to implement a new selling culture into multiple specialty departments and improved customer engagement and increased measure requests on average of 25%.
+                    C2 Coaching & Training developed and facilitated a training program across 77 events for The Home Depot. With over 10,000 Associates trained, in 45 cities in 28 states, C2 was able to implement a new selling culture into multiple specialty departments and improved customer engagement and increased measure requests on average of 25%.
                   </p>
                 </div>
                 <div className="mt-8 lg:mt-0">
@@ -101,8 +101,8 @@ export default function ClientsPage() {
                         <p className="text-sm text-gray-400">Associates Trained</p>
                       </div>
                       <div>
-                        <div className="text-2xl font-bold text-white">19</div>
-                        <p className="text-sm text-gray-400">Regions</p>
+                        <div className="text-2xl font-bold text-white">77</div>
+                        <p className="text-sm text-gray-400">Events</p>
                       </div>
                       <div>
                         <div className="text-2xl font-bold text-white">45</div>
