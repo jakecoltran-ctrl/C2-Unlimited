@@ -1,6 +1,37 @@
+'use client';
+
+import { useState } from 'react';
 import Image from 'next/image';
 
 export default function ContactPage() {
+  const [submitted, setSubmitted] = useState(false);
+
+  if (submitted) {
+    return (
+      <div className="bg-gray-950 min-h-screen">
+        <section className="py-32">
+          <div className="mx-auto max-w-2xl px-4 sm:px-6 lg:px-8 text-center">
+            <div className="bg-green-500/10 border border-green-500/20 rounded-2xl p-12">
+              <svg className="h-16 w-16 text-green-500 mx-auto mb-6" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              <h1 className="text-3xl font-bold text-white mb-4">Thank You!</h1>
+              <p className="text-gray-300 text-lg mb-8">
+                Your message has been sent. We&apos;ll get back to you within 24 business hours.
+              </p>
+              <a
+                href="/"
+                className="inline-flex items-center justify-center rounded-full bg-blue-600 px-8 py-3 font-semibold text-white hover:bg-blue-500 transition-all"
+              >
+                Back to Home
+              </a>
+            </div>
+          </div>
+        </section>
+      </div>
+    );
+  }
+
   return (
     <div className="bg-gray-950">
       {/* Hero */}
@@ -27,7 +58,15 @@ export default function ContactPage() {
             {/* Form */}
             <div>
               <h2 className="text-2xl font-bold text-white mb-8">Send Us a Message</h2>
-              <form className="space-y-6">
+              <form
+                action="https://api.web3forms.com/submit"
+                method="POST"
+                onSubmit={() => setSubmitted(true)}
+                className="space-y-6"
+              >
+                <input type="hidden" name="access_key" value="a747a9b2-0e88-4179-8af4-3adda93b58ca" />
+                <input type="hidden" name="subject" value="New Contact Form Submission - C2 Unlimited" />
+                <input type="hidden" name="from_name" value="C2 Unlimited Website" />
                 <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
                   <div>
                     <label htmlFor="first-name" className="block text-sm font-medium text-gray-300">
@@ -37,6 +76,7 @@ export default function ContactPage() {
                       type="text"
                       id="first-name"
                       name="first-name"
+                      required
                       className="mt-1 block w-full rounded-md bg-gray-800 border-gray-700 text-white shadow-sm focus:border-blue-500 focus:ring-blue-500 px-4 py-3 border"
                     />
                   </div>
@@ -48,6 +88,7 @@ export default function ContactPage() {
                       type="text"
                       id="last-name"
                       name="last-name"
+                      required
                       className="mt-1 block w-full rounded-md bg-gray-800 border-gray-700 text-white shadow-sm focus:border-blue-500 focus:ring-blue-500 px-4 py-3 border"
                     />
                   </div>
@@ -60,6 +101,7 @@ export default function ContactPage() {
                     type="email"
                     id="email"
                     name="email"
+                    required
                     className="mt-1 block w-full rounded-md bg-gray-800 border-gray-700 text-white shadow-sm focus:border-blue-500 focus:ring-blue-500 px-4 py-3 border"
                   />
                 </div>
