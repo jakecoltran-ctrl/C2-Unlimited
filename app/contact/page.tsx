@@ -5,6 +5,31 @@ import Image from 'next/image';
 
 export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setLoading(true);
+
+    const form = e.currentTarget;
+    const formData = new FormData(form);
+
+    try {
+      const response = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        body: formData,
+      });
+
+      if (response.ok) {
+        setSubmitted(true);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+    } catch (error) {
+      console.error('Form submission error:', error);
+    } finally {
+      setLoading(false);
+    }
+  };
 
   if (submitted) {
     return (
@@ -58,15 +83,7 @@ export default function ContactPage() {
             {/* Form */}
             <div>
               <h2 className="text-2xl font-bold text-white mb-8">Send Us a Message</h2>
-              <form
-                action="https://api.web3forms.com/submit"
-                method="POST"
-                onSubmit={() => {
-                  setSubmitted(true);
-                  window.scrollTo({ top: 0, behavior: 'smooth' });
-                }}
-                className="space-y-6"
-              >
+              <form onSubmit={handleSubmit} className="space-y-6">
                 <input type="hidden" name="access_key" value="a747a9b2-0e88-4179-8af4-3adda93b58ca" />
                 <input type="hidden" name="subject" value="New Contact Form Submission - C2 Unlimited" />
                 <input type="hidden" name="from_name" value="C2 Unlimited Website" />
@@ -178,9 +195,10 @@ export default function ContactPage() {
                 <div>
                   <button
                     type="submit"
-                    className="w-full rounded-md bg-blue-600 px-6 py-3 text-lg font-semibold text-white hover:bg-blue-700 hover:-translate-y-0.5 hover:shadow-lg transition-all duration-200"
+                    disabled={loading}
+                    className="w-full rounded-md bg-blue-600 px-6 py-3 text-lg font-semibold text-white hover:bg-blue-700 hover:-translate-y-0.5 hover:shadow-lg transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
                   >
-                    Submit Request
+                    {loading ? 'Sending...' : 'Submit Request'}
                   </button>
                 </div>
               </form>
