@@ -112,7 +112,7 @@ export default function ResourcesPage() {
               </blockquote>
               <div className="mt-8 flex flex-wrap gap-4">
                 <a
-                  href="https://www.amazon.com/dp/B07PTBRCGM"
+                  href="https://www.amazon.com/Selling-Your-Grandmother-Chris-Coltran/dp/0976015609"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center rounded-full bg-blue-600 px-6 py-3 font-semibold text-white hover:bg-blue-500 hover:-translate-y-0.5 hover:shadow-lg transition-all duration-200"
