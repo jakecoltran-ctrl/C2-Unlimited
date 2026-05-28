@@ -109,7 +109,7 @@ export default function SpeakingPage() {
                 <div className="absolute -inset-4 bg-gradient-to-r from-orange-500/20 to-blue-500/20 rounded-3xl blur-2xl" />
                 <div className="relative">
                   <LiteYouTube
-                    videoId="QR2KTeto4u0"
+                    videoId="rdjxcgYRmek"
                     title="Chris Coltran - Keynote Speaking"
                   />
                 </div>
