@@ -81,7 +81,7 @@ export const caseStudies = [
     client: "Lowe's",
     headline: 'Red Vest Selling program length and breadth',
     description: 'Comprehensive sales training program with online learning modules.',
-    metric: '25,000+',
+    metric: '25,458',
     metricLabel: 'Modules Completed',
   },
   {
