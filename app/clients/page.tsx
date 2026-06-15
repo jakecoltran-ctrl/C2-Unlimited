@@ -219,7 +219,7 @@ export default function ClientsPage() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-gray-800 via-gray-800/40 to-transparent" />
               <div className="absolute bottom-6 left-8 lg:left-12">
-                <p className="text-blue-600 font-semibold uppercase tracking-wide text-sm">Lowe&apos;s</p>
+                <p className="text-red-500 font-semibold uppercase tracking-wide text-sm">Lowe&apos;s</p>
                 <h3 className="mt-1 text-2xl lg:text-3xl font-bold text-white">Red Vest Selling Program</h3>
               </div>
             </div>
@@ -235,25 +235,25 @@ export default function ClientsPage() {
                 </p>
                 <ul className="mt-6 space-y-2 text-gray-400">
                   <li className="flex items-start gap-2">
-                    <svg className="h-5 w-5 text-blue-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                    <svg className="h-5 w-5 text-red-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                     13+ training modules (viewed more than 25,000 times by Lowe&apos;s associates)
                   </li>
                   <li className="flex items-start gap-2">
-                    <svg className="h-5 w-5 text-blue-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                    <svg className="h-5 w-5 text-red-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                     Store handouts, learning assessments, and certificates of completion
                   </li>
                   <li className="flex items-start gap-2">
-                    <svg className="h-5 w-5 text-blue-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                    <svg className="h-5 w-5 text-red-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                     Red Vest patches for recognition
                   </li>
                   <li className="flex items-start gap-2">
-                    <svg className="h-5 w-5 text-blue-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                    <svg className="h-5 w-5 text-red-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                     Trainer guides, trainer videos, and ongoing content upgrades
@@ -261,7 +261,7 @@ export default function ClientsPage() {
                 </ul>
                 <Link
                   href="/clients/red-vest-selling"
-                  className="mt-8 inline-flex items-center gap-2 rounded-full bg-blue-600 px-6 py-3 text-white font-semibold hover:bg-blue-500 hover:-translate-y-0.5 hover:shadow-lg transition-all duration-200"
+                  className="mt-8 inline-flex items-center gap-2 rounded-full bg-red-600 px-6 py-3 text-white font-semibold hover:bg-red-500 hover:-translate-y-0.5 hover:shadow-lg transition-all duration-200"
                 >
                   Learn More About Red Vest Selling
                   <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor">
@@ -273,7 +273,7 @@ export default function ClientsPage() {
                 <div className="bg-gray-900 rounded-xl p-6">
                   <div className="grid grid-cols-2 gap-4 text-center">
                     <div className="col-span-2 pb-4 border-b border-gray-700">
-                      <div className="text-4xl font-bold text-blue-600">166,456</div>
+                      <div className="text-4xl font-bold text-red-500">166,456</div>
                       <p className="mt-1 text-gray-400">Minutes Watched</p>
                     </div>
                     <div>
