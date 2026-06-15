@@ -259,6 +259,15 @@ export default function ClientsPage() {
                     Trainer guides, trainer videos, and ongoing content upgrades
                   </li>
                 </ul>
+                <Link
+                  href="/clients/red-vest-selling"
+                  className="mt-8 inline-flex items-center gap-2 text-blue-400 hover:text-blue-300 font-semibold transition-colors"
+                >
+                  Learn More About Red Vest Selling
+                  <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                  </svg>
+                </Link>
               </div>
               <div className="mt-8 lg:mt-0">
                 <div className="bg-gray-900 rounded-xl p-6">
